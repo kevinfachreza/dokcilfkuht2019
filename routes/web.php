@@ -16,7 +16,14 @@ Route::get('/', function () {
 });
 
 
+Route::group(['prefix' => 'admin'], function() {
+	Auth::routes();
+});
+Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Route::get('register', 'Peserta\ViewController@register');
 Route::get('register-sukses/{id}', 'Peserta\ViewController@registerSukses');
 Route::post('register', 'Peserta\PostController@register');
+
+
+Route::get('/home', 'HomeController@index')->name('home');

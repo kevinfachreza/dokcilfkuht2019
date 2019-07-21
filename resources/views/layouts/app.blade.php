@@ -46,6 +46,7 @@
 
 	<!-- Head Libs -->
 	<script src="{{url('')}}/vendor/modernizr/modernizr.min.js"></script>
+	@yield('extra-css')
 
 </head>
 <body data-target="#header" data-spy="scroll" data-offset="100">
@@ -79,6 +80,6 @@
 	<!-- Theme Initialization Files -->
 	<script src="{{url('')}}/js/theme.init.js"></script>
 
-
+	@yield('js')
 </body>
 </html>
