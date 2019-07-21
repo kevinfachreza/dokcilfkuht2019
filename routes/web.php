@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('guest.index');
 });
+
+
+
+Route::get('register', 'Peserta\ViewController@register');
+Route::get('register-sukses/{id}', 'Peserta\ViewController@registerSukses');
+Route::post('register', 'Peserta\PostController@register');

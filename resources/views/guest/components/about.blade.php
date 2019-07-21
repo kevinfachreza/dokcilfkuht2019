@@ -1,5 +1,4 @@
-
-<div class="container">
+<div class="container" id="tentang">
 	<div class="row align-items-center mb-5 py-5">
 		<div class="col-lg-7 pr-5 appear-animation" data-appear-animation="fadeInRightShorter">
 			<h2 class="font-weight-normal text-6 mb-4">Tentang <strong class="font-weight-extra-bold">DOKCIL</strong></h2>

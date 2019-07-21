@@ -229,4 +229,32 @@ section.section{
 	padding: 25px 15px;
 }
 
+.mb-20{
+	margin-bottom: 20px; 
+}
+
+.form-control:focus
+{
+	border-color: #428bca
+}
+
+.form-control:not(.form-control-sm):not(.form-control-lg)
+{
+	font-size: 1rem;
+	height: 43px;
+}
+
+label, input{
+	font-family: "Open Sans", Arial, sans-serif!important;
+}
+
+label{
+	font-weight: 700!important;
+	text-transform: uppercase!important;
+}
+.font-w400
+{
+	font-weight: 400!important;
+}
+
 /*===== // Resonsive Vertical Timeline =====*/
