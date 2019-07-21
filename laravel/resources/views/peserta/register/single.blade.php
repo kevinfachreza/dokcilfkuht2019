@@ -24,6 +24,9 @@ padding: 10px"
 					<i class="far fa-check-circle fa-4x text-primary"></i>
 					<br><br>
 					<h2 class="font-weight-normal text-7 mb-0">Registrasi <strong class="font-weight-extra-bold">Sukses</strong> </h2>
+					@if($allow_redir)
+					<a href="{{url('admin/home')}}" class="btn btn-primary">Kembali ke Daftar Peserta</a>
+					@endif
 					<hr>
 				</div>
 			</div>

@@ -3,6 +3,7 @@
 @section('extra-css')
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
 @endsection
 
 @section('content')
@@ -20,6 +21,7 @@
                                 <th colspan="5" class="text-center">Peserta 1</th>
                                 <th colspan="5" class="text-center">Peserta 2</th>
                                 <th colspan="5" class="text-center">Sekolah</th>
+                                <th>Aksi</th>
                             </tr>
                             <tr>
                                 <th>No</th>
@@ -38,6 +40,7 @@
                                 <th>Kota Sekolah</th>
                                 <th>Telp Sekolah</th>
                                 <th>Cara Pembayaran</th>
+                                <th>Edit</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -59,6 +62,7 @@
                                 <td>{{$item->sekolah_kota}}</td>
                                 <td>{{$item->sekolah_telp}}</td>
                                 <td>{{$item->cara_pembayaran}}</td>
+                                <td><a href="{{url('peserta')}}/{{$item->id}}/edit" class="btn btn-primary">Edit</a></td>
                             </tr>
                             @endforeach
                         </tbody>
@@ -73,10 +77,21 @@
 @section('js')
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
 <script type="text/javascript">
     $(document).ready( function () {
         $('#myTable').DataTable( {
-            "scrollX": true
+            "scrollX": true,
+            dom: 'Bfrtip',
+            buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
         } );
     } );
 </script>

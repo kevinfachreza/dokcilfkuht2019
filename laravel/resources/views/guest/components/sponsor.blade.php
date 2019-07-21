@@ -1,4 +1,4 @@
-
+{{--
 			<section class="section border-0 m-0">
 				<div class="container text-center">
 					<h4>Acara ini Disponsori oleh</h4><br>
@@ -34,3 +34,5 @@
 					</div>
 				</div>
 			</section>
+
+--}}

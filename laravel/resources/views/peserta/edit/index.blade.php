@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Registrasi Peserta
+Edit Peserta
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@ Registrasi Peserta
 			<div class="col-12" style="background-color: #fff;box-shadow: 5px 5px 10px #555;padding-top: 50px;padding-bottom: 50px">
 				<div class="text-center">
 					<div class="overflow-hidden mb-1">
-						<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Registrasi</strong> Peserta - DOKCIL FK UHT 2019</h2>
+						<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Edit</strong> Peserta - DOKCIL FK UHT 2019</h2>
 						<hr>
 					</div>
 				</div>
@@ -32,82 +32,82 @@ Registrasi Peserta
 							<h3>Data Peserta 1</h3>
 							<div class="form-group">
 								<label>Nama Peserta</label>
-								<input class="form-control" name="peserta_1_nama" required>
+								<input class="form-control" name="peserta_1_nama" required value="{{$peserta->peserta_1_nama}}">
 							</div>
 							<div class="form-group">
 								<label>Gender</label>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_1_gender_lk" value="L" name="peserta_1_gender" class="custom-control-input" checked="">
+									<input type="radio" id="peserta_1_gender_lk" value="L" name="peserta_1_gender" class="custom-control-input"  @if($peserta->peserta_1_gender == 'L') checked @endif>
 									<label class="custom-control-label" for="peserta_1_gender_lk">Laki laki</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_1_gender_pr" value="P" name="peserta_1_gender" class="custom-control-input">
+									<input type="radio" id="peserta_1_gender_pr" value="P" name="peserta_1_gender" class="custom-control-input"  @if($peserta->peserta_1_gender == 'P') checked @endif>
 									<label class="custom-control-label" for="peserta_1_gender_pr">Perempuan</label>
 								</div>
 							</div>
 							<div class="form-group">
 								<label>Kelas</label>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_1_kelas_4" value="4" name="peserta_1_kelas" class="custom-control-input" checked="">
+									<input type="radio" id="peserta_1_kelas_4" value="4" name="peserta_1_kelas" class="custom-control-input" @if($peserta->peserta_1_kelas == 4) checked @endif>
 									<label class="custom-control-label" for="peserta_1_kelas_4">Kelas 4</label>
 								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_1_kelas_5" value="5" name="peserta_1_kelas" class="custom-control-input">
+								<div class="custom-control custom-radio"> 
+									<input type="radio" id="peserta_1_kelas_5" value="5" name="peserta_1_kelas" class="custom-control-input"  @if($peserta->peserta_1_kelas == 5) checked @endif>
 									<label class="custom-control-label" for="peserta_1_kelas_5">Kelas 5</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_1_kelas_6" value="6" name="peserta_1_kelas" class="custom-control-input">
+									<input type="radio" id="peserta_1_kelas_6" value="6" name="peserta_1_kelas" class="custom-control-input"  @if($peserta->peserta_1_kelas == 6) checked @endif>
 									<label class="custom-control-label" for="peserta_1_kelas_6">Kelas 6</label>
 								</div>
 							</div>
 							<div class="form-group">
 								<label>No Telp</label>
-								<input class="form-control" name="peserta_1_telp" required>
+								<input class="form-control" name="peserta_1_telp" required value="{{$peserta->peserta_1_telp}}">
 							</div>
 							<div class="form-group">
 								<label>No Telp Wali</label>
-								<input class="form-control" name="peserta_1_telp_wali">
+								<input class="form-control" name="peserta_1_telp_wali" value="{{$peserta->peserta_1_telp_wali}}">
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<h3>Data Peserta 2</h3>
 							<div class="form-group">
 								<label>Nama Peserta</label>
-								<input class="form-control" name="peserta_2_nama" required>
+								<input class="form-control" name="peserta_2_nama" required value="{{$peserta->peserta_2_nama}}">
 							</div>
 							<div class="form-group">
 								<label>Gender</label>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_gender_lk" value="L" name="peserta_2_gender" class="custom-control-input" checked="">
+									<input type="radio" id="peserta_2_gender_lk" value="L" name="peserta_2_gender" class="custom-control-input" @if($peserta->peserta_2_gender == 'P') checked @endif>
 									<label class="custom-control-label" for="peserta_2_gender_lk">Laki laki</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_gender_pr" value="P" name="peserta_2_gender" class="custom-control-input">
+									<input type="radio" id="peserta_2_gender_pr" value="P" name="peserta_2_gender" class="custom-control-input" @if($peserta->peserta_2_gender == 'P') checked @endif>
 									<label class="custom-control-label" for="peserta_2_gender_pr">Perempuan</label>
 								</div>
 							</div>
 							<div class="form-group">
 								<label>Kelas</label>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_4" value="4" name="peserta_2_kelas" class="custom-control-input" checked="">
+									<input type="radio" id="peserta_2_kelas_4" value="4" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '4') checked @endif>
 									<label class="custom-control-label" for="peserta_2_kelas_4">Kelas 4</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_5" value="5" name="peserta_2_kelas" class="custom-control-input">
+									<input type="radio" id="peserta_2_kelas_5" value="5" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '5') checked @endif >
 									<label class="custom-control-label" for="peserta_2_kelas_5">Kelas 5</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_6" value="6" name="peserta_2_kelas" class="custom-control-input">
+									<input type="radio" id="peserta_2_kelas_6" value="6" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '6') checked @endif>
 									<label class="custom-control-label" for="peserta_2_kelas_6">Kelas 6</label>
 								</div>
 							</div>
 							<div class="form-group">
 								<label>No Telp</label>
-								<input class="form-control" name="peserta_2_telp" required>
+								<input class="form-control" name="peserta_2_telp" required value="{{$peserta->peserta_2_telp}}">
 							</div>
 							<div class="form-group">
 								<label>No Telp Wali</label>
-								<input class="form-control" name="peserta_2_telp_wali">
+								<input class="form-control" name="peserta_2_telp_wali" value="{{$peserta->peserta_2_telp_wali}}">
 							</div>
 						</div>
 						<div class="col-12">
@@ -117,37 +117,37 @@ Registrasi Peserta
 							<h3>Data Sekolah</h3>
 							<div class="form-group">
 								<label>Nama Sekolah</label>
-								<input class="form-control" name="sekolah_nama" required>
+								<input class="form-control" name="sekolah_nama" required value="{{$peserta->sekolah_nama}}">
 							</div>
 							<div class="form-group">
 								<label>Alamat Sekolah</label>
-								<input class="form-control" name="sekolah_alamat" required>
+								<input class="form-control" name="sekolah_alamat" required value="{{$peserta->sekolah_alamat}}">
 							</div>
 							<div class="form-group">
 								<label>Kota Sekolah</label>
 								<select class="select2 form-control" name="sekolah_kota">
 									@foreach($kota as $item)
-									<option value="{{$item->name}}" @if($item->name == "SURABAYA") selected @endif>{{$item->name}}</option>
+									<option value="{{$item->name}}"  @if($peserta->sekolah_kota == $item->name) selected @endif>{{$item->name}}</option>
 									@endforeach
 								</select>
 							</div>
 							<div class="form-group">
 								<label>No Telp Sekolah</label>
-								<input class="form-control" name="sekolah_telp" required>
+								<input class="form-control" name="sekolah_telp" required value="{{$peserta->sekolah_telp}}">
 							</div>
 							<div class="form-group">
 								<label>Cara Membayar</label>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="cara_pembayaran_1" value="transfer" name="cara_pembayaran" class="custom-control-input" checked="">
+									<input type="radio" id="cara_pembayaran_1" value="transfer" name="cara_pembayaran" class="custom-control-input" @if($peserta->cara_pembayaran == 'transfer') checked @endif>
 									<label class="custom-control-label" for="cara_pembayaran_1">Transfer ke Bank BNI
 									</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="cara_pembayaran_2" value="lo" name="cara_pembayaran" class="custom-control-input">
+									<input type="radio" id="cara_pembayaran_2" value="lo" name="cara_pembayaran" class="custom-control-input" @if($peserta->cara_pembayaran == 'lo') checked @endif>
 									<label class="custom-control-label" for="cara_pembayaran_2">Bayar di Liason Officer (LO)</label>
 								</div>
 								<div class="custom-control custom-radio">
-									<input type="radio" id="cara_pembayaran_3" value="tm" name="cara_pembayaran" class="custom-control-input">
+									<input type="radio" id="cara_pembayaran_3" value="tm" name="cara_pembayaran" class="custom-control-input" @if($peserta->cara_pembayaran == 'tm') checked @endif>
 									<label class="custom-control-label" for="cara_pembayaran_3">Bayar pada waktu TM (Technical Meeting)
 									</label>
 								</div>

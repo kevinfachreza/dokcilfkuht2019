@@ -15,9 +15,24 @@ class ViewController extends Controller
     		return view('peserta.register.index',$data);
     	}
 
+        public function edit($id)
+        {
+            $data['peserta'] = Peserta::where('id',$id)->first();
+            $data['kota'] = AlamatKota::orderBy('name','asc')->get();
+            return view('peserta.edit.index',$data);
+        }
+
     	public function registerSukses($slug)
     	{
     		$data['peserta'] = Peserta::where('slug',$slug)->first();
+            $data['allow_redir'] = 0;
     		return view('peserta.register.single',$data);
     	}
+
+        public function editSukses($id)
+        {
+            $data['peserta'] = Peserta::where('id',$id)->first();
+            $data['allow_redir'] = 1;
+            return view('peserta.register.single',$data);
+        }
 }

@@ -19,6 +19,14 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function() {
 	Auth::routes();
 });
+
+Route::group(['middleware' => 'auth'], function() {
+	Route::get('/admin', 'HomeController@index')->name('home');
+	Route::get('/admin/home', 'HomeController@index')->name('home');
+	Route::get('/peserta/{id}/edit', 'Peserta\ViewController@edit');
+	Route::post('/peserta/{id}/edit', 'Peserta\PostController@edit');
+	Route::get('/peserta/{id}/edit-sukses', 'Peserta\ViewController@editSukses');
+});
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Route::get('register', 'Peserta\ViewController@register');
@@ -26,4 +34,3 @@ Route::get('register-sukses/{id}', 'Peserta\ViewController@registerSukses');
 Route::post('register', 'Peserta\PostController@register');
 
 
-Route::get('/home', 'HomeController@index')->name('home');
