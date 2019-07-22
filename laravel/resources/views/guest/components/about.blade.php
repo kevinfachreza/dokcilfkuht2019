@@ -11,7 +11,7 @@
 			</p>
 		</div>
 		<div class="col-lg-5 p-0">
-			<section class="parallax section section-parallax match-height border-top-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/gallery/IMG_9987.JPG" style="min-height: 260px;">
+			<section class="parallax section section-parallax match-height border-top-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/gallery/IMG_9987.jpg" style="min-height: 260px;">
 			</section>
 		</div>
 	</div>

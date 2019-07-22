@@ -72,7 +72,7 @@ padding: 10px"
 						@if($peserta->cara_pembayaran == 'transfer')
 							Transfer ke Bank BNI
 						@elseif($peserta->cara_pembayaran == 'lo')
-							Bayar Di Liason Officer (LO)
+							Bayar Di Liason Officer (LO) - {{$peserta->lo_nama}}
 						@else
 							Bayar Pada Waktu TM (Technical Meeting)
 						@endif
@@ -80,6 +80,10 @@ padding: 10px"
 				</div>
 				<div class="col-12">
 					*jika terdapat kesalahan segera hubungi panitia.
+				</div>
+				<div class="col-12 text-center">
+					<hr>
+					<a href="{{url('/register')}}" class="btn btn-primary">Daftarkan Peserta Lagi</a>
 				</div>
 
 			</div>

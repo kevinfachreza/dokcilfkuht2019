@@ -20,5 +20,8 @@
 				<a data-hash data-hash-offset="95" href="#pricing" class="btn btn-primary btn-outline btn-rounded font-weight-semibold text-4 btn-px-5 btn-py-2" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 0.3, 'transition': true, 'horizontal': false}">Pelajari Lebih Lanjut</a>
 			</div>
 		</div>
+		<div class="col-lg-6 d-none d-sm-block text-center mt-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">
+			<img src="{{url('img/logo.png')}}" class="img-fluid" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8, 'transition': true, 'horizontal': true}" style="height: 350px" >
+		</div>
 	</div>
 </div>

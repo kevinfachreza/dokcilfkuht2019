@@ -1,4 +1,4 @@
-<section class="section parallax section-parallax my-0 border-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '125%'}" data-image-src="img/gallery/IMG_9987.JPG" id="cara-daftar">
+<section class="section parallax section-parallax my-0 border-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '125%'}" data-image-src="img/gallery/IMG_9987.jpg" id="cara-daftar">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9 col-lg-7 col-xl-6 appear-animation" data-appear-animation="fadeInLeftShorter">

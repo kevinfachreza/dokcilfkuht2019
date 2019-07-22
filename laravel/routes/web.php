@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('guest.index');
 });
+Route::get('/home', function () {
+    return view('guest.index');
+});
 
 
 Route::group(['prefix' => 'admin'], function() {

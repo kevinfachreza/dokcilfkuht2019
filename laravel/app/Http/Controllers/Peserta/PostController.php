@@ -26,6 +26,7 @@ class PostController extends Controller
     		$peserta->sekolah_kota = $request->sekolah_kota;
     		$peserta->sekolah_telp = $request->sekolah_telp;
     		$peserta->cara_pembayaran = $request->cara_pembayaran;
+            $peserta->lo_nama = $request->lo_nama;
     		$peserta->save();
 
     		$peserta->slug = md5($peserta->id);
@@ -52,6 +53,7 @@ class PostController extends Controller
             $peserta->sekolah_kota = $request->sekolah_kota;
             $peserta->sekolah_telp = $request->sekolah_telp;
             $peserta->cara_pembayaran = $request->cara_pembayaran;
+            $peserta->lo_nama = $request->lo_nama;
             $peserta->save();
 
             return redirect('peserta/'.$peserta->id.'/edit-sukses');

@@ -61,7 +61,7 @@
                                 <td>{{$item->sekolah_alamat}}</td>
                                 <td>{{$item->sekolah_kota}}</td>
                                 <td>{{$item->sekolah_telp}}</td>
-                                <td>{{$item->cara_pembayaran}}</td>
+                                <td>{{$item->cara_pembayaran}} {{$item->lo_nama}}</td>
                                 <td><a href="{{url('peserta')}}/{{$item->id}}/edit" class="btn btn-primary">Edit</a></td>
                             </tr>
                             @endforeach
@@ -90,7 +90,7 @@
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print'
+            'excel',
             ]
         } );
     } );

@@ -14,7 +14,7 @@ Home
 						<div class="header-row">
 							<div class="header-logo">
 								<a href="index.html">
-									<img alt="Porto" width="69" height="48" data-sticky-width="57" data-sticky-height="40" src="img/logo-color.png">
+									<img alt="Porto" width="70" height="70" data-sticky-width="40" data-sticky-height="40" src="{{url('img/logo.png')}}">
 								</a>
 							</div>
 						</div>

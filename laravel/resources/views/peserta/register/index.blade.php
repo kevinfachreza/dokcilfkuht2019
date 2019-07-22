@@ -152,6 +152,10 @@ Registrasi Peserta
 									</label>
 								</div>
 							</div>
+							<div class="form-group" id="form-lo-nama" style="display: none">
+								<label>Nama Liason Officer (LO)</label>
+								<input class="form-control" name="lo_nama" id="form-lo-nama-input">
+							</div>
 							<div style="border: solid 1px #ccc; padding: 10px;margin-bottom: 10px">
 								<label>Cara Pembayaran Transfer</label>
 								<ol>
@@ -189,5 +193,22 @@ Registrasi Peserta
 		</div>
 	</div>
 </div>
+
+@endsection
+
+@section('js')
+<script type="text/javascript">
+	$("input[name=cara_pembayaran]").change(function () {
+		if(this.value == "lo"){
+			$('#form-lo-nama').show();
+			$("#form-lo-nama-input").attr('required','required');
+		}
+		else{
+			$('#form-lo-nama').hide();
+			$("#form-lo-nama-input").removeAttr('required');
+			$("#form-lo-nama-input").val('');
+		}
+	});
+</script>
 
 @endsection
