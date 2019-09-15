@@ -99,9 +99,9 @@ Home
 						<div class="col-lg-4 col-md-6 mb-20">
 							<h4 class="mb-2">Social Media</h4>
 							<ul class="footer-social-icons social-icons mt-3">
-								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+								<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCorr3ewS-jx5OPmk2i1GJuA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+								<li class="social-icons-facebook"><a href="https://instagram.com/doktercilikfkuht" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+								
 							</ul>
 						</div>
 					</div>

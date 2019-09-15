@@ -46,7 +46,7 @@
                         <tbody>
                             @foreach($peserta as $item)
                             <tr>
-                                <td>{{$item->id}}</td>
+                                <td>{{$loop->iteration}}</td>
                                 <td>{{$item->peserta_1_nama}}</td>
                                 <td>{{$item->peserta_1_gender}}</td>
                                 <td>{{$item->peserta_1_kelas}}</td>

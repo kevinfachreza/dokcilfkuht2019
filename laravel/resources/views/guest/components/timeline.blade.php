@@ -83,7 +83,7 @@
 							<h4>Lomba Hari Pertama</h4>
 							<p>
 								Hari : Sabtu <br>
-								Waktu : 08.00 WIB - selesai <br>
+								Waktu : 06.30 WIB - selesai <br>
 								Lokasi : Aula Lantai 4 , Fakultas Kedokteran Universitas Hang Tuah Surabaya <br>
 								Acara :  <br>
 								1.PBT <br>
@@ -108,7 +108,7 @@
 							<h4>Lomba Hari Kedua</h4>
 							<p>
 								Hari : Minggu<br>
-								Waktu : 08.00 WIB - selesai<br>
+								Waktu : 06.30 WIB - selesai<br>
 								Lokasi : Aula Lantai 4 , Fakultas Kedokteran Universitas Hang Tuah Surabaya<br>
 								Acara :<br>
 								1.RALLY GAME<br>
