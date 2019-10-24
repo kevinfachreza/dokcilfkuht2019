@@ -41,6 +41,9 @@ Home
 												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#materi">Materi</a>
 											</li>
 											<li class="dropdown">
+												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#hasil-tm">Hasil TM</a>
+											</li>
+											<li class="dropdown">
 												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#hadiah">Hadiah</a>
 											</li>
 											<li class="dropdown">
@@ -71,6 +74,7 @@ Home
 		@include('guest.components.info-pendaftaran')
 		@include('guest.components.timeline')
 		@include('guest.components.materi')
+		@include('guest.components.hasil-tm')
 		@include('guest.components.hadiah')
 		@include('guest.components.gallery')
 		@include('guest.components.sponsor')
