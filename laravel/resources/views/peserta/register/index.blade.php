@@ -122,12 +122,20 @@ Registrasi Peserta
 							<div class="form-group">
 								<label>Alamat Sekolah</label>
 								<input class="form-control" name="sekolah_alamat" required>
-							</div>
+							</div><!-- 
+							<div class="form-group">
+								<label>Provinsi Sekolah</label>
+								<select class="select2 form-control" name="sekolah_kota">
+									@foreach($provinsi as $item)
+									<option value="{{$item->nama}}" @if($item->nama == "JAWA TIMUR") selected @endif>{{$item->nama}}</option>
+									@endforeach
+								</select>
+							</div> -->
 							<div class="form-group">
 								<label>Kota Sekolah</label>
 								<select class="select2 form-control" name="sekolah_kota">
 									@foreach($kota as $item)
-									<option value="{{$item->name}}" @if($item->name == "SURABAYA") selected @endif>{{$item->name}}</option>
+									<option value="{{$item->nama}}" @if($item->nama == "SURABAYA") selected @endif>{{$item->nama}}</option>
 									@endforeach
 								</select>
 							</div>

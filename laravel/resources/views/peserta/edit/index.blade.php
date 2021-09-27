@@ -127,7 +127,7 @@ Edit Peserta
 								<label>Kota Sekolah</label>
 								<select class="select2 form-control" name="sekolah_kota">
 									@foreach($kota as $item)
-									<option value="{{$item->name}}"  @if($peserta->sekolah_kota == $item->name) selected @endif>{{$item->name}}</option>
+									<option value="{{$item->nama}}"  @if($peserta->sekolah_kota == $item->nama) selected @endif>{{$item->nama}}</option>
 									@endforeach
 								</select>
 							</div>
