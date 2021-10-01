@@ -20,7 +20,7 @@
 									'1-phbs-dan-kesehatan-komunitas-dokcil-2021.pptx',
 									'2-sistem-pencernaan-dokcil-2021.pptx',
 									'3-sistem-pernapasan-dokcil-2021.pptx',
-									'4.-sistem-peredaran-darah-dokcil-2021.pptx',
+									'4-sistem-peredaran-darah-dokcil-2021.pptx',
 									'5-sistem-gerak-dokcil-2021.pptx',
 									'6-sistem-indra-dokcil-2021.pptx',
 									'7-virus-corona-dokcil-2021.pptx',
