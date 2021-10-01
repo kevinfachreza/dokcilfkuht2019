@@ -18,8 +18,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th colspan="5" class="text-center">Peserta 1</th>
-                                <th colspan="5" class="text-center">Peserta 2</th>
+                                <th colspan="5" class="text-center">Peserta</th>
                                 <th colspan="5" class="text-center">Sekolah</th>
                                 <th>Aksi</th>
                             </tr>
@@ -29,12 +28,9 @@
                                 <th>Gender</th>
                                 <th>Kelas</th>
                                 <th>No Telp</th>
-                                <th>No Telp Wali</th>
-                                <th>Nama</th>
-                                <th>Gender</th>
-                                <th>Kelas</th>
-                                <th>No Telp</th>
-                                <th>No Telp Wali</th>
+                                <th>Alamat</th>
+                                <th>Kota</th>
+                                <th>Foto Peserta</th>
                                 <th>Nama Sekolah</th>
                                 <th>Alamat Sekolah</th>
                                 <th>Kota Sekolah</th>
@@ -51,12 +47,12 @@
                                 <td>{{$item->peserta_1_gender}}</td>
                                 <td>{{$item->peserta_1_kelas}}</td>
                                 <td>{{$item->peserta_1_telp}}</td>
-                                <td>{{$item->peserta_1_telp_wali}}</td>
-                                <td>{{$item->peserta_2_nama}}</td>
-                                <td>{{$item->peserta_2_gender}}</td>
-                                <td>{{$item->peserta_2_kelas}}</td>
-                                <td>{{$item->peserta_2_telp}}</td>
-                                <td>{{$item->peserta_2_telp_wali}}</td>
+                                <td>{{$item->peserta_1_alamat}}</td>
+                                <td>{{$item->peserta_1_kota}}</td>
+                                <td>
+                                    <a href="{{url('')}}/uploads/peserta/{{$item->peserta_1_img_path}}" download>Download
+                                    </a>
+                                </td>
                                 <td>{{$item->sekolah_nama}}</td>
                                 <td>{{$item->sekolah_alamat}}</td>
                                 <td>{{$item->sekolah_kota}}</td>

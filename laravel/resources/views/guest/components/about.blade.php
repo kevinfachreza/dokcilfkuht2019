@@ -3,11 +3,14 @@
 		<div class="col-lg-7 pr-5 appear-animation" data-appear-animation="fadeInRightShorter">
 			<h2 class="font-weight-normal text-6 mb-4">Tentang <strong class="font-weight-extra-bold">DOKCIL</strong></h2>
 			<p class="lead pr-2 mb-4">
-				DOKCIL atau Dokter Cilik merupakan acara tahunan yang diselenggarakan oleh BEM Fakultas Kedokteran Universitas Hang Tuah Surabaya dan bekerja sama dengan Pemerintah Provinsi Jawa Timur untuk memperingati hari Kesehatan Nasional. 
+				DOKCIL merupakan acara tahunan yang diselenggarakan oleh BEM Fakultas Kedokteran Universitas Hang Tuah untuk memperingati hari Kesehatan Nasional yang bertepatan pada tanggal 12 November 2021.
 			</p>
 			<p class="mb-4">
-				Acara ini tersusun atas rangkaian perlombaan bagi anak kelas 4 – 6 SD sederajat. Perlombaan ini terbagi menjadi 5 babak, yaitu 2 babak penyisihan, 1 quarter final, 1 babak semifinal, dan 1 babak final.
-				Sesuai dengan tema yang diangkat tahun ini <strong>MAINTAIN OUR ARTERY (Be A Smart Young Doctor To Create Healthier Society)</strong> selain perlombaan yang mengasah otak, acara ini juga akan memberikan sedikit pembelajaran tentang keterampilan medis kedokteran (Skill Lab) dan akan mengadakan banyak kegiatan lain yang akan membuat peserta menggerakkan seluruh anggota gerak tubuh dan melatih kerja sama, kepercayaan, dan kreativitas peserta dalam mengikuti rangkaian kegiatan ini.
+				Acara ini merupakan perlombaan bagi siswa kelas 4-6 SD / MI sederajat yang terdiri dari 4 babak yakni babak penyisihan, babak quarter final, babak semifinal, dan babak final yang akan diselenggarakan secara online mengingat masih adanya pandemi COVID-19 yang terjadi di Indonesia. 
+
+				Dengan tema yang kita angkat tahun ini yakni <strong>"Train Our Brain" (Absorb the Energy Spread the Positivity)</strong>, selain perlombaan yang mengasah otak, acara ini juga akan memberikan pembelajaran mengenai keterampilan medis kedokteran (skill lab) untuk memberikan gambaran kepada peserta tentang profesi dokter.
+
+				Terdapat juga kegiatan lain yang tentu akan mengembangkan kreativitas peserta dalam mengikuti rangkaian perlombaan ini. Walaupun tidak dapat bertemu tatap muka, tetapi perlombaan online ini tentu akan tetap menarik dan dapat menambah pengetahuan serta pengalaman para peserta dalam dunia medis.
 			</p>
 		</div>
 		<div class="col-lg-5 p-0">

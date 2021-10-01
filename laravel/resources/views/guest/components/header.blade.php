@@ -14,14 +14,14 @@
 				<h1 class="mb-4 mb-md-0 mb-xl-3" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 1, 'transition': true, 'horizontal': false}"><strong>Belajar menjadi dokter</strong> bisa dimulai sejak dini</h1>
 			</div>
 			<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-				<p class="text-4 mb-5 mb-md-2" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 0.5, 'transition': true, 'horizontal': false}">Dengan mengikuti event <strong>DOKCIL</strong> anak akan mengikuti kegiatan lomba, belajar berbagai skill kedokteran, dan kegiatan menarik lainnya</p>
+				<p class="text-4 mb-5 mb-md-2" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 0.5, 'transition': true, 'horizontal': false}">Dengan mengikuti event <strong>DOKCIL</strong> (Dokter Cilik), anak akan mengikuti kegiatan lomba, belajar mengenai skills kedokteran dan beragam kegiatan menarik lainnya.</p>
 			</div>
 			<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
 				<a data-hash data-hash-offset="95" href="#pricing" class="btn btn-primary btn-outline btn-rounded font-weight-semibold text-4 btn-px-5 btn-py-2" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 0.3, 'transition': true, 'horizontal': false}">Pelajari Lebih Lanjut</a>
 			</div>
 		</div>
 		<div class="col-lg-6 d-none d-sm-block text-center mt-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">
-			<img src="{{url('img/logo.png')}}" class="img-fluid" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8, 'transition': true, 'horizontal': true}" style="height: 350px" >
+			<img src="{{url('img/logo-2021-md.png')}}" class="img-fluid" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8, 'transition': true, 'horizontal': true}" style="height: 350px" >
 		</div>
 	</div>
 </div>

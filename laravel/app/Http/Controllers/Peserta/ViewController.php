@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Peserta;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\AlamatKota;
-use App\Models\AlamatProvinsi;
 use App\Models\Peserta;
 
 class ViewController extends Controller
@@ -13,7 +12,6 @@ class ViewController extends Controller
     	public function register()
     	{
     		$data['kota'] = AlamatKota::orderBy('nama','asc')->get();
-            $data['provinsi'] = AlamatProvinsi::orderBy('nama','asc')->get();
     		return view('peserta.register.index',$data);
     	}
 
@@ -21,7 +19,6 @@ class ViewController extends Controller
         {
             $data['peserta'] = Peserta::where('id',$id)->first();
             $data['kota'] = AlamatKota::orderBy('nama','asc')->get();
-            $data['provinsi'] = AlamatProvinsi::orderBy('nama','asc')->get();
             return view('peserta.edit.index',$data);
         }
 

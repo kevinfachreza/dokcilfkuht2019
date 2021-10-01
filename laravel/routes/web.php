@@ -36,4 +36,8 @@ Route::get('register', 'Peserta\ViewController@register');
 Route::get('register-sukses/{id}', 'Peserta\ViewController@registerSukses');
 Route::post('register', 'Peserta\PostController@register');
 
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+});
+
 

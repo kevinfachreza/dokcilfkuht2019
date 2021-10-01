@@ -4,62 +4,40 @@
 			<div class="col-12 text-center mb-2">
 				<h2 class="font-weight-bold text-6">Materi</h2>
 			</div>
+
+			@php
+				$array_judul = [
+									'PHBS & Kesehatan Komunitas',
+									'Sistem Pencernaan',
+									'Sistem Pernapasan',
+									'Sistem Peredaran Darah',
+									'Sistem Gerak',
+									'Sistem Indra',
+									'Virus Corona',
+									'P3K'
+								];
+				$array_file 	= [
+									'1-phbs-dan-kesehatan-komunitas-dokcil-2021.pptx',
+									'2-sistem-pencernaan-dokcil-2021.pptx',
+									'3-sistem-pernapasan-dokcil-2021.pptx',
+									'4.-sistem-peredaran-darah-dokcil-2021.pptx',
+									'5-sistem-gerak-dokcil-2021.pptx',
+									'6-sistem-indra-dokcil-2021.pptx',
+									'7-virus-corona-dokcil-2021.pptx',
+									'8-p3k-dokcil-2021.pptx',
+								];
+			@endphp
+
+			@foreach($array_judul as $index => $materi)
 			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
 				<div class="card">
 					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Sistem Pernapasan</h4>
-						<a href="{{url('')}}/download/sistem_pernapasan.ppt" class="btn btn-primary btn-modern" download>Download</a>
+						<h4 class="card-title mb-4 text-4 font-weight-normal">{{$materi}}</h4>
+						<a href="{{url('')}}/download/2021/materi/{{$array_file[$index]}}" download>Download</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Sistem Peredaran Darah</h4>
-						<a href="{{url('')}}/download/sistem_peredaran_darah.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Sistem Pencernaan</h4>
-						<a href="{{url('')}}/download/sistem_pencernaan.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Sistem Indra</h4>
-						<a href="{{url('')}}/download/sistem_indra.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Sistem Gerak</h4>
-						<a href="{{url('')}}/download/sistem_gerak.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Pola Hidup Bersih dan Sehat</h4>
-						<a href="{{url('')}}/download/pola_hidup.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4 col-xl-3 mb-20">
-				<div class="card">
-					<div class="card-body text-center">
-						<h4 class="card-title mb-4 text-4 font-weight-normal">Penyakit Infeksi</h4>
-						<a href="{{url('')}}/download/penyakit_infeksi.pptx" class="btn btn-primary btn-modern" download>Download</a>
-					</div>
-				</div>
-			</div>
+			@endforeach
 		</div>
 	</div>
 </section>

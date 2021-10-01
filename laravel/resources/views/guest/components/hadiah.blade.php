@@ -9,18 +9,24 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
 				<h4 class="mb-0 font-weight-light">Juara 1</h4>
-				<h2 class="mb-4 font-weight-normal">Piala + Piagam + Rp 2.500.000,-</h2>
+				<h2 class="mb-4 font-weight-normal">Piala + Piagam + Rp 2.000.000,-</h2>
 				<h4 class="mb-0 font-weight-light">Juara 2</h4>
-				<h2 class="mb-4 font-weight-normal">Piala +  Piagam + Rp 1.500.000,-</h2>
+				<h2 class="mb-4 font-weight-normal">Piala +  Piagam + Rp 1.250.000,-</h2>
 				<h4 class="mb-0 font-weight-light">Juara 3</h4>
-				<h2 class="mb-4 font-weight-normal">Piala +Piagam + Rp 1.000.000,-</h2>
+				<h2 class="mb-4 font-weight-normal">Piala +Piagam + Rp 750.000,-</h2>
 
 				<h5 class="mb-0 font-weight-light">Juara Harapan 1</h5>
-				<h3 class="mb-4 font-weight-normal">Piala + bingkisan + Rp 600.000,-</h3>
+				<h3 class="mb-4 font-weight-normal">Piala + Sertifikat + Rp 500.000,-</h3>
 				<h5 class="mb-0 font-weight-light">Juara Harapan 2</h5>
-				<h3 class="mb-4 font-weight-normal">Piala + bingkisan + Rp 400.000,-</h3>
-				<h5 class="mb-0 font-weight-light">Juara Games (6 Tim)</h5>
-				<h3 class="mb-4 font-weight-normal">Alat Tulis</h3>
+				<h3 class="mb-4 font-weight-normal">Piala + Sertifikat + Rp 300.000,-</h3>
+				<h5 class="mb-0 font-weight-light">Sekolah Terbaik</h5>
+				<h3 class="mb-4 font-weight-normal">Plakat + Sertifikat</h3>
+				<h5 class="mb-0 font-weight-light">Rally Games Terbaik</h5>
+				<h3 class="mb-4 font-weight-normal">Merchandise</h3>
+				<h5 class="mb-0 font-weight-light">Presentasi Esai Terbaik</h5>
+				<h3 class="mb-4 font-weight-normal">Merchandise</h3>
+				<h5 class="mb-0 font-weight-light">Pemenang Ice Breaking</h5>
+				<h3 class="mb-4 font-weight-normal">20 Merchandise</h3>
 			</div>
 		</div>
 	</div>

@@ -25,10 +25,10 @@ Edit Peserta
 						<hr>
 					</div>
 				</div>
-				<form method="POST">
+				<form method="POST" enctype="multipart/form-data">
 					@csrf
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-12">
 							<h3>Data Peserta 1</h3>
 							<div class="form-group">
 								<label>Nama Peserta</label>
@@ -65,49 +65,26 @@ Edit Peserta
 								<input class="form-control" name="peserta_1_telp" required value="{{$peserta->peserta_1_telp}}">
 							</div>
 							<div class="form-group">
-								<label>No Telp Wali</label>
-								<input class="form-control" name="peserta_1_telp_wali" value="{{$peserta->peserta_1_telp_wali}}">
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<h3>Data Peserta 2</h3>
-							<div class="form-group">
-								<label>Nama Peserta</label>
-								<input class="form-control" name="peserta_2_nama" required value="{{$peserta->peserta_2_nama}}">
+								<label>Alamat Domisili</label>
+								<input class="form-control" name="peserta_1_alamat" required value="{{$peserta->peserta_1_alamat}}">
 							</div>
 							<div class="form-group">
-								<label>Gender</label>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_gender_lk" value="L" name="peserta_2_gender" class="custom-control-input" @if($peserta->peserta_2_gender == 'P') checked @endif>
-									<label class="custom-control-label" for="peserta_2_gender_lk">Laki laki</label>
-								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_gender_pr" value="P" name="peserta_2_gender" class="custom-control-input" @if($peserta->peserta_2_gender == 'P') checked @endif>
-									<label class="custom-control-label" for="peserta_2_gender_pr">Perempuan</label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Kelas</label>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_4" value="4" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '4') checked @endif>
-									<label class="custom-control-label" for="peserta_2_kelas_4">Kelas 4</label>
-								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_5" value="5" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '5') checked @endif >
-									<label class="custom-control-label" for="peserta_2_kelas_5">Kelas 5</label>
-								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="peserta_2_kelas_6" value="6" name="peserta_2_kelas" class="custom-control-input" @if($peserta->peserta_2_kelas == '6') checked @endif>
-									<label class="custom-control-label" for="peserta_2_kelas_6">Kelas 6</label>
-								</div>
+								<label>Kota</label>
+								<select class="select2 form-control" name="peserta_1_kota">
+									@foreach($kota as $item)
+									<option value="{{$item->nama}}" @if($item->nama == $peserta->peserta_1_kota) selected @endif>{{$item->nama}}</option>
+									@endforeach
+								</select>
 							</div>
 							<div class="form-group">
 								<label>No Telp</label>
-								<input class="form-control" name="peserta_2_telp" required value="{{$peserta->peserta_2_telp}}">
+								<input class="form-control" name="peserta_1_telp" required value="{{$peserta->peserta_1_telp}}">
 							</div>
 							<div class="form-group">
-								<label>No Telp Wali</label>
-								<input class="form-control" name="peserta_2_telp_wali" value="{{$peserta->peserta_2_telp_wali}}">
+								<label>Foto</label>
+								<input type="file" class="form-control" name="peserta_1_photo" accept="image/*">
+								<small>JPG, PNG</small><br>
+								<img src="{{url('')}}/uploads/peserta/{{$peserta->peserta_1_img_path}}" style="max-width: 200px; max-height: 100px;">
 							</div>
 						</div>
 						<div class="col-12">
@@ -146,11 +123,6 @@ Edit Peserta
 									<input type="radio" id="cara_pembayaran_2" value="lo" name="cara_pembayaran" class="custom-control-input" @if($peserta->cara_pembayaran == 'lo') checked @endif>
 									<label class="custom-control-label" for="cara_pembayaran_2">Bayar di Liason Officer (LO)</label>
 								</div>
-								<div class="custom-control custom-radio">
-									<input type="radio" id="cara_pembayaran_3" value="tm" name="cara_pembayaran" class="custom-control-input" @if($peserta->cara_pembayaran == 'tm') checked @endif>
-									<label class="custom-control-label" for="cara_pembayaran_3">Bayar pada waktu TM (Technical Meeting)
-									</label>
-								</div>
 							</div>
 							<div class="form-group" id="form-lo-nama" style="display: none">
 								<label>Nama Liason Officer (LO)</label>
@@ -160,18 +132,18 @@ Edit Peserta
 								<label>Cara Pembayaran Transfer</label>
 								<ol>
 									<li>
-										Transfer ke Bank BNI dengan nomor rekening <strong>0438368080</strong>  
-										Atas nama <strong>Norika Fairuza Irbach</strong>
+										Transfer ke Bank BTN dengan nomor rekening <strong>0001201610081388 </strong>  
+										Atas nama <strong>Vivi Viona</strong>
 									</li>
 									<li>
-										Lalu konfirmasi pembayaran ke <strong>081335226752</strong> (Agnes) dengan Format 
+										Lalu konfirmasi pembayaran ke <strong>081234762002</strong> (Vivi) dengan Format 
 										<br>
-										<strong>DOKCILFKUHT19_Nama Peserta(salah satu)_Nama Sekolah_Nama Pengirim_Jumlah Pembayaran</strong>
+										<strong>DDOKCILFKUHT21_Nama Peserta_Nama Sekolah_Nama Pengirim_Jumlah Pembayaran</strong>
 										<br>
-										Contoh : DOKCILFKUHT19_Kevin Fachreza_SD Masa Depan Cerah 22 Surabaya_Joko Sanjoyo_85.000
+										Contoh : DOKCILFKUHT21_Dinda Putri_SD Hang Tuah Surabaya_Joko Sanjoyo_85.000
 									</li>
 									<li>
-										Mengirim foto bukti pembayaran untuk mendapatkan nomer kwitansi
+										Mengirim foto bukti pembayaran untuk mendapatkan link grup Whatsapp peserta DOKCIL 2021.
 									</li>
 								</ol>
 
@@ -179,7 +151,7 @@ Edit Peserta
 								<ol>
 									<li>Nama yang tercantum dalam formulir pendaftaran adalah nama yang tercetak pada sertifikat
 									</li>
-									<li>Membawa Fotokopi 1 lembar Kartu Identitas/Kartu Pelajar masing-masing peserta saat hari H pelaksanaan  
+									<li>Pastikan seluruh data peserta yang tertulis adalah benar.
 									</li>
 								</ol>
 							</div>

@@ -9,17 +9,16 @@
 							<div class="plan" style="width: 100%">
 								<div class="plan-price">
 									<span class="price"><span class="price-unit">Rp</span>85.000</span>
-									<label class="price-label">PER TIM</label>
+									<label class="price-label">PER ANAK</label>
 								</div>
 							</div>
 						</div>
 						<div class="">
 							<ol>
-								<li>Peserta Dokcil adalah siswa sekolah dasar/sederajat kelas 4,5, dan 6 baik dari sekolah negeri ataupun swasta Se – Jawa Timur.</li>
-								<li>Setiap tim terdiri dari 2 siswa sekolah dasar/sederajat dari tingkat kelas yang sama maupun berbeda, peserta harus mengikuti kompetisi sebagai wakil sekolah yang sama dengan ketentuan setiap sekolah boleh mengirimkan lebih dari 1 tim.</li>
-								<li>Siswa yang berhalangan hadir harus memberi pemberitahuan maksimal 5 hari sebelum perlombaan dimulai, jika tidak, akan didiskualifikasi.</li>
-								<li>Jika ada perubahan yang ingin dilakukan pada nama-nama tim yang telah didaftarkan, pemberitahuan kepada panitia dokcil maksimal 5 hari sebelum perlombaan dimulai.</li>
-								<li>Hanya diizinkan 1 wakil dari setiap sekolah untuk menemani siswa pada hari pelaksanaan lomba. </li>
+								<li>Peserta DOKCIL adalah siswa/i sekolah dasar/ sederajat kelas 4,5 dan 6 baik dari sekolah negeri ataupun swasta se-Jawa Timur..</li>
+								<li>Perlombaan dilaksanakan secara individu yang artinya hanya terdiri dari 1 orang setiap tim. Peserta harus mengikuti kompetisi sebagai wakil sekolah dan setiap sekolah diperbolehkan untuk mengirimkan lebih dari 1 siswa/i untuk mengikuti perlombaan.</li>
+								<li>Peserta wajib menyetujui ketentuan peserta DOKCIL 2021 yang telah dibuat oleh panitia.</li>
+								<li>Jika ada perubahan yang ingin dilakukan terkait dengan data diri dari peserta perlombaan yang telah didaftarkan, pemberitahuan kepada panitia DOKCIL maksimal H-4 hari sebelum perlombaan dimulai, yaitu pada tanggal 9 November 2021.</li>
 							</ol>
 						</div>
 					</div>

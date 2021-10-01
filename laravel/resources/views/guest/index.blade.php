@@ -14,7 +14,7 @@ Home
 						<div class="header-row">
 							<div class="header-logo">
 								<a href="index.html">
-									<img alt="Porto" width="70" height="70" data-sticky-width="40" data-sticky-height="40" src="{{url('img/logo.png')}}">
+									<img alt="Porto" width="70" height="70" data-sticky-width="40" data-sticky-height="40" src="{{url('img/logo-2021-md.png')}}">
 								</a>
 							</div>
 						</div>
@@ -40,9 +40,9 @@ Home
 											<li class="dropdown">
 												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#materi">Materi</a>
 											</li>
-											<li class="dropdown">
+											<!-- <li class="dropdown">
 												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#hasil-tm">Hasil TM</a>
-											</li>
+											</li> -->
 											<li class="dropdown">
 												<a class="dropdown-item"  data-hash data-hash-offset="95" href="#hadiah">Hadiah</a>
 											</li>
@@ -74,7 +74,7 @@ Home
 		@include('guest.components.info-pendaftaran')
 		@include('guest.components.timeline')
 		@include('guest.components.materi')
-		@include('guest.components.hasil-tm')
+		{{-- @include('guest.components.hasil-tm') --}}
 		@include('guest.components.hadiah')
 		@include('guest.components.gallery')
 		@include('guest.components.sponsor')
@@ -89,21 +89,19 @@ Home
 					<div class="row mt-3 mt-lg-5">
 						<div class="col-lg-4 col-md-6 mb-20">
 							<h4 class="mb-2">Contact Person</h4>
-							<p class="mb-0 font-weight-semibold">Dita </p>
-							<a href="tel:+8001234567" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us"> 0811-1098-588</a>
-							<p class="mb-0 font-weight-semibold">Agnes </p>
-							<a href="tel:+8001234567" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us">0813-3522-6752 </a>
-							<p class="mb-0 font-weight-semibold">Galih </p>
-							<a href="tel:+8001234567" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us">0812-3060-3939</a>
+							<p class="mb-0 font-weight-semibold">Pipit (WA) </p>
+							<a href="https://wa.me/6283129358229" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us"> 0831-2935-8229</a>
+							<p class="mb-0 font-weight-semibold">Denisa (WA) </p>
+							<a href="https://wa.me/6281336911575" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us">0813-3691-1575 </a>
 						</div>
 						<div class="col-lg-4 col-md-6 mb-20">
 							<h4 class="mb-2">Email</h4>
-							<a href="mail:fkuhtdokcil@gmail.com" class="text-color-primary text-5 p-relative bottom-3" target="_blank" title="Mail Us">fkuhtdokcil@gmail.com</a>
+							<a href="mail:acaradokcil.fkuht@gmail.com" class="text-color-primary text-5 p-relative bottom-3" target="_blank" title="Mail Us">acaradokcil.fkuht@gmail.com</a>
 						</div>
 						<div class="col-lg-4 col-md-6 mb-20">
 							<h4 class="mb-2">Social Media</h4>
-							<ul class="footer-social-icons social-icons mt-3">
-								<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCorr3ewS-jx5OPmk2i1GJuA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+							<ul class="footer-social-icons social-icons mt-3"><!-- 
+								<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCorr3ewS-jx5OPmk2i1GJuA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li> -->
 								<li class="social-icons-facebook"><a href="https://instagram.com/doktercilikfkuht" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 								
 							</ul>
@@ -116,7 +114,7 @@ Home
 			<div class="container py-2">
 				<div class="row py-4">
 					<div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-						<p>© Copyright 2019. All Rights Reserved.</p>
+						<p>Dokcil FK UHT © Copyright 2021. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
