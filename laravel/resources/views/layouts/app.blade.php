@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="{{url('')}}/css/skins/skin-seo.css"> 
 
 	<!-- Theme Custom CSS -->
-	<link rel="stylesheet" href="{{url('')}}/css/customv1.2.css">
+	<link rel="stylesheet" href="{{url('')}}/css/customv1.3.css">
 
 	<!-- Head Libs -->
 	<script src="{{url('')}}/vendor/modernizr/modernizr.min.js"></script>

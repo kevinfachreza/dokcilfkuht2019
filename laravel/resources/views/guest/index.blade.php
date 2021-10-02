@@ -81,7 +81,7 @@ Home
 	</div> 
 
 
-	<footer id="footer" class="border-0" style="background: url('https://wallpaperaccess.com/full/749014.jpg'); background-size:cover; background-position: 0 0;">
+	<footer id="footer" class="border-0">
 		<div class="container py-4">
 			<div class="row justify-content-md-center py-5">
 				<div class="col-12  mb-5 mb-lg-0">

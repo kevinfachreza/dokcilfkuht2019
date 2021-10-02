@@ -6,16 +6,7 @@ Registrasi Peserta
 
 @section('content')
 
-
-<div style=" 
-background: url({{url('img/bg-blue.png')}});
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center top;
-background-size: 100% 100% ;
-padding: 10px" 
->
-
+<div style=" background: var(--yellowp);padding: 10px" >
 <div class="container position-relative" style="min-height: 643px;" id="home">
 	<div class="row align-items-center py-5">
 		<div class="col-12" style="background-color: #fff;box-shadow: 5px 5px 10px #555;padding-top: 50px;padding-bottom: 50px">

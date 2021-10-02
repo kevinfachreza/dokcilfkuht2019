@@ -7,14 +7,7 @@ Edit Peserta
 @section('content')
 
 
-<div style=" 
-	background: url({{url('img/bg-blue.png')}});
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center top;
-    	background-size: 100% 100% ;
-	padding: 10px" 
->
+<div style=" background: var(--yellowp);padding: 10px" >
 
 	<div class="container position-relative" style="min-height: 643px;" id="home">
 		<div class="row align-items-center py-5">
@@ -86,6 +79,14 @@ Edit Peserta
 								<small>JPG, PNG</small><br>
 								<img src="{{url('')}}/uploads/peserta/{{$peserta->peserta_1_img_path}}" style="max-width: 200px; max-height: 100px;">
 							</div>
+							<div class="form-group">
+								<label>Nama Wali</label>
+								<input class="form-control" value="{{$peserta->peserta_1_nama_wali}}" name="peserta_1_nama_wali" required>
+							</div>
+							<div class="form-group">
+								<label>No Telp Wali</label>
+								<input class="form-control" value="{{$peserta->peserta_1_telp_wali}}" name="peserta_1_telp_wali" required>
+							</div>
 						</div>
 						<div class="col-12">
 							<hr>
@@ -107,10 +108,6 @@ Edit Peserta
 									<option value="{{$item->nama}}"  @if($peserta->sekolah_kota == $item->nama) selected @endif>{{$item->nama}}</option>
 									@endforeach
 								</select>
-							</div>
-							<div class="form-group">
-								<label>No Telp Sekolah</label>
-								<input class="form-control" name="sekolah_telp" required value="{{$peserta->sekolah_telp}}">
 							</div>
 							<div class="form-group">
 								<label>Cara Membayar</label>

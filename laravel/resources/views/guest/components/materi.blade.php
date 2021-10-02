@@ -1,4 +1,4 @@
-<section class="section section-default border-0" id="materi">
+<section class="section section-default border-0" id="materi" style="background-color:#EFEAE4">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center mb-2">

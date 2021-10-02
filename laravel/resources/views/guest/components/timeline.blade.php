@@ -10,10 +10,10 @@
 			<div class="timeline-article">
 				<div class="content-left-container">
 					<div class="content-left row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #805DFF">
-							<h3 class="article-number">03 Okt</h3>
+						<div class="content-number col-xl-2 col-sm-4" style="background: #EFEAE4">
+							<h3 class="article-number text-color-dark">03 Okt</h3>
 						</div>
-						<div class="content-text col-xl-10 col-sm-8">
+						<div class="content-text col-xl-10 col-sm-8 ">
 							<h4>Pendaftaran</h4>
 							<p>Peserta dapat mendaftarkan diri melalui website yang tersedia.</p>
 						</div>
@@ -26,7 +26,7 @@
 			<div class="timeline-article">
 				<div class="content-right-container">
 					<div class="content-right row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #FF6380">
+						<div class="content-number col-xl-2 col-sm-4" style="background: #F79D85">
 							<h3 class="article-number">04 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
@@ -44,7 +44,7 @@
 
 				<div class="content-left-container">
 					<div class="content-left row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #FEC85E">
+						<div class="content-number col-xl-2 col-sm-4" style="background: #A5D0A8">
 							<h3 class="article-number">06 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
@@ -64,7 +64,7 @@
 			<div class="timeline-article">
 				<div class="content-right-container">
 					<div class="content-right row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #80B1FE">
+						<div class="content-number col-xl-2 col-sm-4" style="background: #8CB3DB">
 							<h3 class="article-number">13 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
@@ -84,8 +84,8 @@
 			<div class="timeline-article">
 				<div class="content-left-container">
 					<div class="content-left row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #23E6AE">
-							<h3 class="article-number">15 Nov</h3>
+						<div class="content-number col-xl-2 col-sm-4" style="background: #EFEAE4">
+							<h3 class="article-number text-color-dark">15 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
 							<h4>Batas Akhir Pengumpulan Karya Esai</h4>
@@ -104,7 +104,7 @@
 			<div class="timeline-article">
 				<div class="content-right-container">
 					<div class="content-right row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #80B1FE">
+						<div class="content-number col-xl-2 col-sm-4" style="background: #F79D85">
 							<h3 class="article-number">18 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
@@ -123,7 +123,7 @@
 			<div class="timeline-article">
 				<div class="content-left-container">
 					<div class="content-left row m-0">
-						<div class="content-number col-xl-2 col-sm-4" style="background: #23E6AE">
+						<div class="content-number col-xl-2 col-sm-4" style="background: #A5D0A8">
 							<h3 class="article-number">20 Nov</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">

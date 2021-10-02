@@ -18,8 +18,8 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th colspan="5" class="text-center">Peserta</th>
-                                <th colspan="5" class="text-center">Sekolah</th>
+                                <th colspan="10" class="text-center">Peserta</th>
+                                <th colspan="3" class="text-center">Sekolah</th>
                                 <th>Aksi</th>
                             </tr>
                             <tr>
@@ -31,10 +31,11 @@
                                 <th>Alamat</th>
                                 <th>Kota</th>
                                 <th>Foto Peserta</th>
+                                <th>Nama Wali</th>
+                                <th>No Tlp Wali</th>
                                 <th>Nama Sekolah</th>
                                 <th>Alamat Sekolah</th>
                                 <th>Kota Sekolah</th>
-                                <th>Telp Sekolah</th>
                                 <th>Cara Pembayaran</th>
                                 <th>Edit</th>
                             </tr>
@@ -53,10 +54,11 @@
                                     <a href="{{url('')}}/uploads/peserta/{{$item->peserta_1_img_path}}" download>Download
                                     </a>
                                 </td>
+                                <td>{{$item->peserta_1_nama_wali}}</td>
+                                <td>{{$item->peserta_1_telp_wali}}</td>
                                 <td>{{$item->sekolah_nama}}</td>
                                 <td>{{$item->sekolah_alamat}}</td>
                                 <td>{{$item->sekolah_kota}}</td>
-                                <td>{{$item->sekolah_telp}}</td>
                                 <td>{{$item->cara_pembayaran}} {{$item->lo_nama}}</td>
                                 <td><a href="{{url('peserta')}}/{{$item->id}}/edit" class="btn btn-primary">Edit</a></td>
                             </tr>
