@@ -20,13 +20,13 @@
 				<h5 class="mb-0 font-weight-light">Juara Harapan 2</h5>
 				<h3 class="mb-4 font-weight-normal">Piala + Sertifikat + Rp 300.000,-</h3>
 				<h5 class="mb-0 font-weight-light">Sekolah Terbaik</h5>
-				<h3 class="mb-4 font-weight-normal">Plakat + Sertifikat</h3>
+				<h3 class="mb-4 font-weight-normal">Plakat + Sertifikat + Merchandise</h3>
 				<h5 class="mb-0 font-weight-light">Rally Games Terbaik</h5>
 				<h3 class="mb-4 font-weight-normal">Merchandise</h3>
 				<h5 class="mb-0 font-weight-light">Presentasi Esai Terbaik</h5>
 				<h3 class="mb-4 font-weight-normal">Merchandise</h3>
-				<h5 class="mb-0 font-weight-light">Pemenang Ice Breaking</h5>
-				<h3 class="mb-4 font-weight-normal">20 Merchandise</h3>
+				<h5 class="mb-0 font-weight-light">Pemenang Ice Breaking Day 1 & Day 2</h5>
+				<h3 class="mb-4 font-weight-normal">30++ Merchandise</h3>
 			</div>
 		</div>
 	</div>

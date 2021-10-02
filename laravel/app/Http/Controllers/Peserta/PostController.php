@@ -18,6 +18,8 @@ class PostController extends Controller
         $peserta->peserta_1_telp = $request->peserta_1_telp;
         $peserta->peserta_1_alamat = $request->peserta_1_alamat;
         $peserta->peserta_1_kota = $request->peserta_1_kota;
+        $peserta->peserta_1_nama_wali = $request->peserta_1_nama_wali;
+        $peserta->peserta_1_telp_wali = $request->peserta_1_telp_wali;
         $peserta->sekolah_nama = $request->sekolah_nama;
         $peserta->sekolah_alamat = $request->sekolah_alamat;
         $peserta->sekolah_kota = $request->sekolah_kota;
@@ -44,6 +46,8 @@ class PostController extends Controller
         $peserta->peserta_1_telp = $request->peserta_1_telp;
         $peserta->peserta_1_alamat = $request->peserta_1_alamat;
         $peserta->peserta_1_kota = $request->peserta_1_kota;
+        $peserta->peserta_1_nama_wali = $request->peserta_1_nama_wali;
+        $peserta->peserta_1_telp_wali = $request->peserta_1_telp_wali;
         $peserta->sekolah_nama = $request->sekolah_nama;
         $peserta->sekolah_alamat = $request->sekolah_alamat;
         $peserta->sekolah_kota = $request->sekolah_kota;

@@ -30,6 +30,8 @@ padding: 10px"
 			<div class="row justify-content-center mb-20">
 				<div class="col-lg-4 col-md-6 col-12 mb-20">
 					<h4>Data Peserta</h4>
+
+					<img src="{{url('')}}/uploads/peserta/{{$peserta->peserta_1_img_path}}" style="max-width: 200px; max-height: 100px;">
 					<table>
 						<tr>
 							<td><h5 class="font-w400 text-muted mb-0">Nama</h5></td>
@@ -61,9 +63,17 @@ padding: 10px"
 							<td class="text-center">:</td>
 							<td><h5 class="font-w400 mb-0">{{$peserta->peserta_1_kota ?? '-'}}</h5></td>
 						</tr>
+						<tr>
+							<td><h5 class="font-w400 text-muted mb-0">Nama Wali</h5></td>
+							<td class="text-center">:</td>
+							<td><h5 class="font-w400 mb-0">{{$peserta->peserta_1_nama_wali ?? '-'}}</h5></td>
+						</tr>
+						<tr>
+							<td><h5 class="font-w400 text-muted mb-0">No Telp Wali</h5></td>
+							<td class="text-center">:</td>
+							<td><h5 class="font-w400 mb-0">{{$peserta->peserta_1_telp_wali ?? '-'}}</h5></td>
+						</tr>
 					</table>
-					<h5 class="font-w400 text-muted mb-0">Foto Peserta</h5>
-					<img src="{{url('')}}/uploads/peserta/{{$peserta->peserta_1_img_path}}" style="max-width: 200px; max-height: 100px;">
 				</div>
 				<div class="col-lg-4 col-md-6 col-12">
 					<h4>Data Sekolah</h4>
@@ -85,11 +95,6 @@ padding: 10px"
 							<td><h5 class="font-w400 mb-0">{{$peserta->sekolah_kota ?? '-'}}</h5></td>
 						</tr>
 						<tr>
-							<td><h5 class="font-w400 text-muted mb-0">No Telp</h5></td>
-							<td class="text-center">:</td>
-							<td><h5 class="font-w400 mb-0">{{$peserta->sekolah_telp ?? '-'}}</h5></td>
-						</tr>
-						<tr>
 							<td><h5 class="font-w400 text-muted mb-0">Cara Pembayaran</h5></td>
 							<td class="text-center">:</td>
 							<td><h5 class="font-w400 mb-0">
@@ -102,6 +107,16 @@ padding: 10px"
 						</tr>
 					</table>
 				</div>
+			</div>
+
+			<div style="border: solid 1px #ccc; padding: 10px;margin-bottom: 10px">
+				<label>Note</label>
+				<ul>
+					<li>Segera melakukan konfirmasi pembayaran ke nomor 081234762002 (Vivi) dengan format
+						DOKCILFKUHT21_Nama Peserta_Nama Sekolah_Nama Pengirim_Jumlah Pembayaran
+					Contoh : DOKCILFKUHT21_Dinda Putri_SD Hang Tuah Surabaya_Joko Sanjoyo_85.000</li>
+					<li>Mengirim foto bukti pembayaran untuk mendapatkan link grup Whatsapp peserta DOKCIL 2021.</li>
+				</ul>
 			</div>
 
 			<div class="row justify-content-center mb-20">
@@ -117,7 +132,11 @@ padding: 10px"
 				@else
 				<a href="{{url('/register')}}" class="btn btn-primary">Daftarkan Peserta Lagi</a>
 				@endif
+				<div class="pt-5">
+					<a href="{{url('')}}">Kembali ke halaman utama</a>
+				</div>
 			</div>
+
 
 		</div>
 	</div>

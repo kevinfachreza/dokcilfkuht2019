@@ -11,7 +11,7 @@
 				<div class="content-left-container">
 					<div class="content-left row m-0">
 						<div class="content-number col-xl-2 col-sm-4" style="background: #805DFF">
-							<h3 class="article-number">04 Okt</h3>
+							<h3 class="article-number">03 Okt</h3>
 						</div>
 						<div class="content-text col-xl-10 col-sm-8">
 							<h4>Pendaftaran</h4>
@@ -130,7 +130,7 @@
 							<h4>Lomba Hari Kedua</h4>
 							<p>
 								Hari : Sabtu, 20 November 2021<br>
-								Waktu : Maksimal waktu pengumpulan adalah pukul 23.59 WIB<br>
+								Waktu : 07.15 WIB - Selesai<br>
 								Lokasi : Zoom Meeting
 							</p>
 						</div>

@@ -93,6 +93,10 @@ Home
 							<a href="https://wa.me/6283129358229" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us"> 0831-2935-8229</a>
 							<p class="mb-0 font-weight-semibold">Denisa (WA) </p>
 							<a href="https://wa.me/6281336911575" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us">0813-3691-1575 </a>
+							<p class="mb-0 font-weight-semibold">Stephen (WA) </p>
+							<a href="https://wa.me/6285290527102" class="text-color-white text-5 p-relative bottom-3" target="_blank" title="Call Us">0852-9052-7102 </a>
+
+
 						</div>
 						<div class="col-lg-4 col-md-6 mb-20">
 							<h4 class="mb-2">Email</h4>
@@ -103,6 +107,7 @@ Home
 							<ul class="footer-social-icons social-icons mt-3"><!-- 
 								<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCorr3ewS-jx5OPmk2i1GJuA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li> -->
 								<li class="social-icons-facebook"><a href="https://instagram.com/doktercilikfkuht" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+								<a href="https://instagram.com/doktercilikfkuht" target="_blank" title="Instagram">@doktercilikfkuht</a>
 								
 							</ul>
 						</div>

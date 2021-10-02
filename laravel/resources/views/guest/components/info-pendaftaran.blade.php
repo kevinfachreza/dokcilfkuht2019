@@ -15,7 +15,7 @@
 						</div>
 						<div class="">
 							<ol>
-								<li>Peserta DOKCIL adalah siswa/i sekolah dasar/ sederajat kelas 4,5 dan 6 baik dari sekolah negeri ataupun swasta se-Jawa Timur..</li>
+								<li>Peserta DOKCIL adalah siswa/i sekolah dasar/ sederajat kelas 4,5 dan 6 baik dari sekolah negeri ataupun swasta se-Jawa Timur.</li>
 								<li>Perlombaan dilaksanakan secara individu yang artinya hanya terdiri dari 1 orang setiap tim. Peserta harus mengikuti kompetisi sebagai wakil sekolah dan setiap sekolah diperbolehkan untuk mengirimkan lebih dari 1 siswa/i untuk mengikuti perlombaan.</li>
 								<li>Peserta wajib menyetujui ketentuan peserta DOKCIL 2021 yang telah dibuat oleh panitia.</li>
 								<li>Jika ada perubahan yang ingin dilakukan terkait dengan data diri dari peserta perlombaan yang telah didaftarkan, pemberitahuan kepada panitia DOKCIL maksimal H-4 hari sebelum perlombaan dimulai, yaitu pada tanggal 9 November 2021.</li>
