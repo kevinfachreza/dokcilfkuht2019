@@ -14,10 +14,17 @@ Edit Peserta
 			<div class="col-12" style="background-color: #fff;box-shadow: 5px 5px 10px #555;padding-top: 50px;padding-bottom: 50px">
 				<div class="text-center">
 					<div class="overflow-hidden mb-1">
-						<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Edit</strong> Peserta - DOKCIL FK UHT 2019</h2>
+						<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Edit</strong> Peserta - DOKCIL FK UHT 2021</h2>
 						<hr>
 					</div>
 				</div>
+
+				<form method="POST" enctype="multipart/form-data" id="delete-form" action="{{url()->current()}}/delete" style="float:right;margin-right: 1em;">
+					@csrf
+					<button class="btn btn-danger" id="button-delete">Delete Data</button>
+				</form>
+				
+
 				<form method="POST" enctype="multipart/form-data">
 					@csrf
 					<div class="row">
@@ -178,6 +185,13 @@ Edit Peserta
 			$("#form-lo-nama-input").val('');
 		}
 	});
+
+	$('#delete-form').submit(function(event){
+		if(!confirm("Apakah Anda Yakin?")){
+			event.preventDefault();
+		}
+	});
+
 </script>
 
 @if($peserta->cara_pembayaran == 'lo')

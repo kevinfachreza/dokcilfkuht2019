@@ -13,7 +13,7 @@ Registrasi Peserta
 		<div class="col-12" style="background-color: #fff;box-shadow: 5px 5px 10px #555;padding-top: 50px;padding-bottom: 50px">
 			<div class="text-center">
 				<div class="overflow-hidden mb-1">
-					<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Registrasi</strong> Peserta - DOKCIL FK UHT 2019</h2>
+					<h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Registrasi</strong> Peserta - DOKCIL FK UHT 2021</h2>
 					<hr>
 				</div>
 			</div>

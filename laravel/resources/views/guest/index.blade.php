@@ -74,7 +74,9 @@ Home
 		@include('guest.components.info-pendaftaran')
 		@include('guest.components.timeline')
 		@include('guest.components.materi')
-		{{-- @include('guest.components.hasil-tm') --}}
+		@include('guest.components.pembekalan')
+		@include('guest.components.hasil-tm')
+		
 		@include('guest.components.hadiah')
 		@include('guest.components.gallery')
 		@include('guest.components.sponsor')

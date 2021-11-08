@@ -6,10 +6,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-	<title>@yield('title') - DOKCIL - FK UHT 2019</title>	
+	<title>@yield('title') - DOKCIL - FK UHT 2021</title>	
 
-	<meta name="keywords" content="@yield('title') - DOKCIL - FK UHT 2019" />
-	<meta name="description" content="@yield('title') - DOKCIL - FK UHT 2019">
+	<meta name="keywords" content="@yield('title') - DOKCIL - FK UHT 2021" />
+	<meta name="description" content="@yield('title') - DOKCIL - FK UHT 2021">
 	<meta name="author" content="http://dokcilfkuht.com">
 
 	<!-- Favicon -->
@@ -50,7 +50,11 @@
 
 </head>
 <body data-target="#header" data-spy="scroll" data-offset="100">
-
+	@if (\Session::has('success'))
+    <div class="alert alert-success">
+        {!! \Session::get('success') !!}
+    </div>
+	@endif
 	@yield('content')
 	<!-- Vendor -->
 	<script src="{{url('')}}/vendor/jquery/jquery.min.js"></script>
@@ -79,6 +83,8 @@
 
 	<!-- Theme Initialization Files -->
 	<script src="{{url('')}}/js/theme.init.js"></script>
+
+
 
 	@yield('js')
 </body>

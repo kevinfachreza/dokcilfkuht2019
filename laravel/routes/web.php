@@ -28,6 +28,7 @@ Route::group(['middleware' => 'auth'], function() {
 	Route::get('/admin/home', 'HomeController@index')->name('home');
 	Route::get('/peserta/{id}/edit', 'Peserta\ViewController@edit');
 	Route::post('/peserta/{id}/edit', 'Peserta\PostController@edit');
+	Route::post('/peserta/{id}/edit/delete', 'Peserta\PostController@delete');
 	Route::get('/peserta/{id}/edit-sukses', 'Peserta\ViewController@editSukses');
 });
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');

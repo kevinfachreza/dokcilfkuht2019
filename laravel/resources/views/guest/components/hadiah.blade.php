@@ -5,7 +5,7 @@
 				<h2 class="font-weight-bold text-6">Hadiah</h2>
 			</div>
 			<div class="d-none d-sm-none d-lg-block col-lg-3">
-				<img src="https://image.flaticon.com/icons/svg/1846/1846915.svg" width="100%">
+				<img src="{{asset('img/trophy.png')}}" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
 				<h4 class="mb-0 font-weight-light">Juara 1</h4>

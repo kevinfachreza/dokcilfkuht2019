@@ -67,6 +67,13 @@ class PostController extends Controller
 
     }
 
+    public function delete($id)
+    {
+        $peserta = Peserta::find($id);
+        $peserta->delete();
+        return redirect('admin')->with('success', 'Data Sukses Dihapus');
+    }
+
     private function uploadPhoto($file,$filename)
     {
         $path_dir = 'uploads/peserta';
