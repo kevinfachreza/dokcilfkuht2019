@@ -4,16 +4,12 @@
             <h2 class="font-weight-bold text-6">Pembekalan</h2>
         </div>
 
-        @php
+         @php
                 $array_judul = [
-                                    'Ketentuan Karya Esai',
-                                    'Contoh Karya Esai - 1',
-                                    'Contoh Karya Esai - 2'
+                                    'Ketentuan Umum',
                                 ];
                 $array_file     = [
-                                    'ketentuan_karya_esai.pdf',
-                                    'contoh_karya_esai_1.pdf',
-                                    'contoh_karya_esai_2.pdf'
+                                    'ketentuan_umum.pptx',
                                 ];
             @endphp
 
